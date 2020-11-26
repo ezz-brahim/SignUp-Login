@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.login-page{
+    height: 450px;
+    width: 100%;
+    background: #00b2ce;
+    border-radius: 0% 0% 60% 60%/ 0% 0% 5% 5%;
+
+}
+#txt1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 55%;
+    font-family: 'Droid Arabic Kufi';
+    text-decoration: none;
+
+}
+.line{
+    border-top: 2px solid white ;
+}
+.form{
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    width: 80%;
+    height: 40px;
+    transform: translateX(-10%);
+    margin: 3px 0;
+}
+.form img{
+    transform: translate(-60%, 20%);
+}
+.form p{
+    font-size: 9px;
+    transform: translate(-15%,-65px);
+    font-family: 'Droid Arabic Kufi';
+    color: white;
+}
+::placeholder {
+    color: rgb(226, 226, 226);
+    font-size: 13px;
+    font-family: 'Droid Arabic Kufi';
+}
+.form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    font-family: 'Droid Arabic Kufi';
+    border-radius: 20px;
+    border: none;  
+}
+#btn1{  
+    background: black;
+    transform: translate(-20%, 70%);
+    color: white;
+    
+}
+#btn2{  
+    background: white;
+    color: black;
+    transform: translate(-40%, 70%);
+    box-shadow: 0 2px 0 rgb(219, 217, 217);
+}
+.login2 p{
+    text-align: center; 
+    padding: 40px;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 15px;
+}
+
+#facebook{
+    border:2px solid #38589a;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    background: none;
+    transform: translate(110px,-50%);
+}
+#google{
+    border:2px solid #ff641a;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    background: none;
+    transform: translate(130px,-50%);  
+}

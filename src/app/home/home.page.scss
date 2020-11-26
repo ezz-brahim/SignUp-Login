@@ -1,27 +1,67 @@
-#container {
-  text-align: center;
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.mysvg{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-top: -25%;
+  margin-right: auto;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.mysvg svg{
+  width: 100%;
 }
+.btn{
+  margin-top: 100%;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
 }
+.btn ion-button{
+  border-radius: 50px;
+  width: 50%;
+  margin: auto;
+  font-family: 'Droid Arabic Kufi', serif;
 
-#container a {
-  text-decoration: none;
 }
+#cercle01{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  transform: translate(-20% , -20%);
+  background: #00b2ce;
+}
+#cercle02{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translate(-50% , -90%);
+  background: #00b2ce;
+}
+#cercle03{
+  float: right;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translate(60%, -140px);
+  background: #00b2ce;
+}
+#cercle04{
+  float: right;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  transform: translate(50%, 6%);
+  background: #00b2ce;
+}
+#Nota{
+  animation: bike 2s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+ @keyframes bike{
+   from{
+     transform: rotateX(0deg);
+
+   }
+   to{
+    transform: rotateX(20deg) ;
+
+   }
+ }

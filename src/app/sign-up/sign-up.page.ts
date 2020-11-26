@@ -1,16 +1,15 @@
 import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { LoginPage } from '../login/login.page';
-
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-sign-up',
+  templateUrl: './sign-up.page.html',
+  styleUrls: ['./sign-up.page.scss'],
 })
-export class HomePage {
+export class SignUpPage {
 
-  constructor(private modalController: ModalController) {}
-  async OuvertModal() {
+  constructor(private modalController: ModalController) { }
+  async OuvertLogin() {
     const modal = await this.modalController.create({
     component: LoginPage
     });
@@ -18,4 +17,6 @@ export class HomePage {
     await modal.present();
   
   }
+
+
 }
